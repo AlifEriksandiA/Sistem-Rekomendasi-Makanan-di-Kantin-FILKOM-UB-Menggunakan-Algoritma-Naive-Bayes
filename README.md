@@ -34,3 +34,43 @@ Data latih disimpan secara *hardcoded* di dalam program (list `data_latih`). Con
 ```python
 ['murah', 'tidak pedas', 'gurih', 'biasa', 'Indomie Goreng']
 ['murah', 'pedas', 'berkuah', 'populer', 'Mie Ayam']
+```
+
+## 💻 Cara Menjalankan Program
+
+### Prasyarat
+* **Python 3.x** terinstal di komputer Anda.
+* **Tidak memerlukan library eksternal** (hanya menggunakan library bawaan python yaitu `collections`).
+
+### Langkah-langkah
+1.  Clone atau download repository ini.
+2.  Buka terminal atau command prompt (CMD/PowerShell).
+3.  Arahkan direktori ke tempat file disimpan.
+4.  Jalankan perintah berikut:
+
+```bash
+python nama_file.py
+```
+
+Berikut adalah simulasi interaksi program ketika dijalankan di terminal:
+
+Nama kamu siapa? Alif
+Masukkan budget kamu (murah/menengah/mahal): murah
+Kamu suka pedas atau tidak pedas? (pedas/sedang/tidak pedas): pedas
+Karakteristik makanan yang kamu suka? (crispy/gurih/berkuah/kering): berkuah
+Apakah kamu ingin makanan populer? (ya/tidak): ya
+
+Halo Alif, berikut rekomendasi makanan untukmu:
+- Mie Ayam (skor probabilitas: 0.004210)
+- Mie yamin (skor probabilitas: 0.001050)
+- Indomie Ayam Geprek (skor probabilitas: 0.000850)
+
+👉 Rekomendasi utama untuk kamu adalah: Mie Ayam 🍽
+
+👤 Author
+1. Alif Eriksandi Agustino
+2. Alif Aryasatya Rofiq
+3. Balada Raja Baskara
+4. Andi Muhammad Fadli
+
+Teknik Komputer - Universitas Brawijaya
